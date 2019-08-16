@@ -35,7 +35,7 @@ const App = () => {
             .get('https://swapi.co/api/people/')
             .then((response) => {
                 for (let i = 0; i < 11; i++) {
-                    console.log(response.data.results);
+                    // console.log(response.data.results);
                     setToon(response.data.results);
                 }
                 // axios
